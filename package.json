@@ -4,6 +4,7 @@
   "description": "Follow egghead course [Modern JavaScript Tooling with React](https://egghead.io/courses/modern-javascript-tooling-with-react) to bootstrap a React project from scratch.",
   "main": "index.js",
   "scripts": {
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Ivan Ha <hangolam@gmail.com>",
@@ -16,5 +17,10 @@
   "bugs": {
     "url": "https://github.com/ivan-ha/egghead-react-boilerplate/issues"
   },
-  "homepage": "https://github.com/ivan-ha/egghead-react-boilerplate#readme"
+  "homepage": "https://github.com/ivan-ha/egghead-react-boilerplate#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "webpack": "^4.28.4",
+    "webpack-cli": "^3.2.1"
+  }
 }
