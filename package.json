@@ -6,6 +6,7 @@
   "scripts": {
     "build": "webpack --config webpack.config.prod.js",
     "dev": "webpack-dev-server --open --config webpack.config.dev.js",
+    "dev:hot": "yarn dev --hot",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Ivan Ha <hangolam@gmail.com>",
@@ -22,7 +23,8 @@
   "dependencies": {
     "prop-types": "^15.6.2",
     "react": "^16.7.0",
-    "react-dom": "^16.7.0"
+    "react-dom": "^16.7.0",
+    "react-hot-loader": "^4.6.3"
   },
   "devDependencies": {
     "@babel/cli": "^7.2.3",
