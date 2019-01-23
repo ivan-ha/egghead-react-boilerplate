@@ -8,5 +8,9 @@ module.exports = merge(baseConfig, {
     new BundleAnalyzerPlugin({
       analyzerMode: "static"
     })
-  ]
+  ],
+  externals: {
+    react: "React",
+    "react-dom": "ReactDOM"
+  }
 });
