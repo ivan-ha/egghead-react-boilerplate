@@ -21,3 +21,4 @@ Follow egghead course [Modern JavaScript Tooling with React](https://egghead.io/
 15. configure prettier
 16. configure eslint
 17. lint with a11y
+18. add precommit hook with huksy
