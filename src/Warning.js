@@ -1,3 +1,5 @@
 import React from 'react'
 
-export default () => <span>Take it easy!</span>
+const Warning = () => <span>Take it easy!</span>
+
+export default Warning
