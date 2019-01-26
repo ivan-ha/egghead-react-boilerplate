@@ -15,3 +15,4 @@ Follow egghead course [Modern JavaScript Tooling with React](https://egghead.io/
 9. configure hot reload support for react components
 10. add `webpack-bundle-analyzer`
 11. include react from cdn
+12. add babel polyfill and configure browser supports
