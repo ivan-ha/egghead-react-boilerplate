@@ -17,3 +17,4 @@ Follow egghead course [Modern JavaScript Tooling with React](https://egghead.io/
 11. include react from cdn
 12. add babel polyfill and configure browser supports
 13. support dynamic import via React.lazy
+14. configure testing env
