@@ -20,3 +20,4 @@ Follow egghead course [Modern JavaScript Tooling with React](https://egghead.io/
 14. configure testing env
 15. configure prettier
 16. configure eslint
+17. lint with a11y
