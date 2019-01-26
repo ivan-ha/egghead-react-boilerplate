@@ -1,16 +1,16 @@
-import React from "react";
-import { hot } from "react-hot-loader";
+import React from 'react'
+import { hot } from 'react-hot-loader'
 
-const Warning = React.lazy(() => import("./Warning"));
+const Warning = React.lazy(() => import('./Warning'))
 
 class App extends React.Component {
   state = {
     count: 0
-  };
+  }
 
-  plusClick = () => this.setState(({ count }) => ({ count: count + 1 }));
+  plusClick = () => this.setState(({ count }) => ({ count: count + 1 }))
 
-  minusClick = () => this.setState(({ count }) => ({ count: count - 1 }));
+  minusClick = () => this.setState(({ count }) => ({ count: count - 1 }))
 
   render() {
     return (
@@ -25,8 +25,8 @@ class App extends React.Component {
           </React.Suspense>
         ) : null}
       </React.Fragment>
-    );
+    )
   }
 }
 
-export default hot(module)(App);
+export default hot(module)(App)
