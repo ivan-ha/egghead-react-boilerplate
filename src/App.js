@@ -13,6 +13,9 @@ class App extends React.Component {
   minusClick = () => this.setState(({ count }) => ({ count: count - 1 }))
 
   render() {
+    if (this.state.count > 15) {
+      throw new Error('Count is gone crazy!')
+    }
     return (
       <React.Fragment>
         <h1>Hello World</h1>
