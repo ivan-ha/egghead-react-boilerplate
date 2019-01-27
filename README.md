@@ -24,3 +24,4 @@ Follow egghead course [Modern JavaScript Tooling with React](https://egghead.io/
 18. add precommit hook with huksy
 19. have ErrorBoundary for render error
 20. add prop-types
+21. use `react-axe` to check for accessibility issue
